@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="193px" height="194px" viewBox="0 0 193 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <filter x="-2.5%" y="-6.8%" width="105.1%" height="113.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v1.0--black" filter="url(#filter-1)" transform="translate(9.000000, 9.000000)">
+            <g id="Group" transform="translate(0.241000, 0.910000)">
+                <path d="M87.252,0 C39.063,0 0,39.065 0,87.251 C0,93.597 0.691,99.778 1.977,105.737 L46.829,60.887 L63.018,77.074 L104.182,35.91 L165.335,97.063 L165.591,97.318 L172.781,104.508 C173.903,98.928 174.504,93.162 174.504,87.251 C174.504,39.065 135.44,0 87.252,0 Z" id="Fill-1" fill="#E5C73E"></path>
+                <polyline id="Fill-2" fill="#000000" points="9.383 113.747 46.703 76.425 90.13 171.066 68.974 166.894 43.648 160.041 24.876 141.865 9.383 113.747"></polyline>
+                <polyline id="Fill-3" fill="#000000" points="65.995 90.024 103.317 52.703 146.741 147.343 132.141 156.204 100.261 136.318 81.488 118.143 65.995 90.024"></polyline>
+                <path d="M13.604,115.041 L46.851,81.794 L46.948,81.89 L58.043,110.825 L51.183,123.716 L58.959,118.301 L47.36,134.92 L63.065,123.699 L70.553,140.634 L61.493,153.019 L73.848,148.039 L81.484,165.624 C50.341,163.384 24.219,143.035 13.604,115.041 Z M104.241,58.056 L116.207,90.758 L109.429,103.037 L116.976,97.952 L105.59,113.74 L120.838,103.197 L127.779,119.57 L118.894,131.329 L130.832,126.73 L139.008,146.386 C137.57,147.646 136.077,148.845 134.548,149.999 L83.413,106.333 L68.934,93.132 L104.126,57.94 L104.241,58.056 Z M164.988,105.611 C164.983,105.619 164.978,105.626 164.975,105.633 L104.182,44.841 L63.018,86.005 L46.829,69.817 L5.236,111.411 L5.236,111.412 L3.809,112.84 C14.779,148.485 47.961,174.398 87.205,174.398 C140.68,174.398 164.013,135.501 170.979,111.603 L164.988,105.611 L164.988,105.611 Z" id="Fill-4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
