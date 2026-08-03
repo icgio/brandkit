@@ -1,0 +1,37 @@
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1080px;height:145px;overflow:hidden;}
+  .band{position:relative;width:1080px;height:145px;background:#F4EFE2;overflow:hidden;}
+
+  .mt{position:absolute;bottom:0;width:0;height:0;border-style:solid;
+      border-color:transparent transparent #E7D9BA transparent;}
+  .a {left:-63px;  border-width:0 140px 109px 140px;}
+  .b {left:84px;   border-width:0 109px  76px 109px;}
+  .a2{right:-63px; border-width:0 140px 109px 140px;}
+  .b2{right:84px;  border-width:0 109px  76px 109px;}
+
+  .row{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:30px;padding-top:8px;}
+  .lockup{height:57px;width:225px;flex:none;align-self:center;object-fit:contain;}
+  .bar{width:2px;height:42px;background:#C9BCA4;flex:none;}
+  .zh{font-family:'PingFang SC','Microsoft YaHei',sans-serif;
+      font-size:40px;font-weight:500;color:#33444C;letter-spacing:.42em;
+      white-space:nowrap;padding-left:.42em;}
+</style>
+<div class="band">
+  <i class="mt a"></i><i class="mt b"></i><i class="mt a2"></i><i class="mt b2"></i>
+  <div class="row">
+    <img class="lockup" id="lockup" src="light690x175nobg.png" alt="">
+    <i class="bar" id="bar"></i>
+    <div class="zh" id="zh"></div>
+  </div>
+</div>
+<script>
+  const TEXT='共识之中';
+  const n=parseInt(location.hash.slice(1)||'0',10);
+  // 第 1 帧即有内容，淡入 4 帧后逐字显示，其余帧定格
+  const logoOp=Math.min(1,n/4);
+  const chars=n>=5?Math.min(4,Math.floor((n-5)/2)+1):0;
+  document.getElementById('lockup').style.opacity=logoOp;
+  document.getElementById('bar').style.opacity=chars>0?1:0;
+  document.getElementById('zh').textContent=TEXT.slice(0,chars);
+</script>
