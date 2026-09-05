@@ -3,3 +3,6 @@
 *.sketch
 *.ai
 *.psd
+
+# older marks stay local only; public repo carries the current logo only
+archive/
