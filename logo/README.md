@@ -1,8 +1,8 @@
 # Product logo assets
 
-The Tickers Watch and Listing Watch logo sets are available as PNGs in two shapes:
+The Tickers Watch and Listing Watch logo sets are grouped by product:
 
-- `tickers-watch/{square,round}/`
-- `listing-watch/{square,round}/`
+- `tickers-watch/`
+- `listing-watch/`
 
-Each shape includes 256, 512, and 1024 px variants. The top-level `tickers-watch.png` and `listing-watch.png` files are the 1024 px square masters.
+Each folder contains square and round PNGs at 256, 512, and 1024 px. The top-level `tickers-watch.png` and `listing-watch.png` files are the 1024 px square masters.
